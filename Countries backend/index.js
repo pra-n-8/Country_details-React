@@ -17,7 +17,8 @@ app.use(cors(corsOptions))
 app.get('/country/:name', async (req, res) => {
     try {
       const countryName = req.params.name;
-      const response = await axios.get(`https://restcountries.com/v2/name/${countryName}`);
+	  //https://restcountries.com/v3.1/name/Namibia?fields=name,curencies
+	const response = await axios.get(`https://restcountries.com/v3.1/name/${countryName}`);
   
       // Send back the response from the external API to the client
       res.send(response.data);
