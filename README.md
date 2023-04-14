@@ -20,42 +20,45 @@ Clone the repository using Git:
 
 ```bash
 git clone https://github.com/pra-n-8/Country_details-React.git
+```
 
-Navigate to the project directory:
+### Navigate to the project directory:
 
 ```bash
 cd Country_details-React
+``` 
 
-Install the required dependencies for both front-end and backend:
+## Install the required dependencies for both front-end and backend:
 
 ```bash
 cd Backend
 npm install
-cd ..
+```
 
-Start the application - Backend:
+## Start the application - Backend:
 
 ```bash
+cd ..
 nodejs index.js
-
+```
 
 ```bash
 cd Frontend
 npm install
-cd ..
-
-Start the application - Frontend:
+```
+## Start the application - Frontend:
 
 ```bash
+cd ..
 npm start
+```
 
-
-Usage
+## Usage
 The application can be accessed on your browser at http://localhost:3000.
 
 The front-end and backend communicate using the Axios library. The endpoints on the backend can be customized to suit your needs.
 
-Built With
+## Built With
 ReactJS - JavaScript library for building user interfaces
 ExpressJS - Web application framework for Node.js
 Axios - Promise-based HTTP client for the browser and Node.js
