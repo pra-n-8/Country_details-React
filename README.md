@@ -34,7 +34,10 @@ cd Country_details-React
 cd Backend
 npm install
 ```
-
+```bash
+cd Frontend
+npm install
+```
 ## Start the application - Backend:
 
 ```bash
@@ -42,10 +45,6 @@ cd ..
 nodejs index.js
 ```
 
-```bash
-cd Frontend
-npm install
-```
 ## Start the application - Frontend:
 
 ```bash
