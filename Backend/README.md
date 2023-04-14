@@ -36,7 +36,7 @@ npm install
 ### Start the application:
 ```bash
 cd ..
-nodejs index
+node index.js
 ```
 
 ## Usage
