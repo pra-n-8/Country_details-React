@@ -42,7 +42,7 @@ npm install
 
 ```bash
 cd ..
-nodejs index.js
+node index.js
 ```
 
 ## Start the application - Frontend:
